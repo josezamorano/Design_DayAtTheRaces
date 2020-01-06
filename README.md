@@ -1,0 +1,1 @@
+This is The WPF version of the Day At the Races Game project created from the book C# Head First.
