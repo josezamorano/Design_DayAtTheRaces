@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{ED2566D6-FFFE-4C15-A6F6-D37DD192DD93}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DayAtTheRaces.Library</RootNamespace>
+    <AssemblyName>DayAtTheRaces.Library</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Autofac, Version=4.9.4.0, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
+      <HintPath>..\packages\Autofac.4.9.4\lib\net45\Autofac.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Commands\CommandPlaceBet.cs" />
+    <Compile Include="Commands\CommandRaceGo.cs" />
+    <Compile Include="Extensions\AllNotifications.cs" />
+    <Compile Include="Interfaces\ICommandRaceGo.cs" />
+    <Compile Include="Interfaces\IDogFactory.cs" />
+    <Compile Include="Models\BettingAccount.cs" />
+    <Compile Include="BettingBank.cs" />
+    <Compile Include="Commands\CommandDepositMoneyInGuyPocket.cs" />
+    <Compile Include="Commands\CommandInvoker.cs" />
+    <Compile Include="Commands\CommandNewDogToRacetrack.cs" />
+    <Compile Include="Commands\CommandNewGuyToPalaceStadium.cs" />
+    <Compile Include="DependencyInjection\ContainerConfig.cs" />
+    <Compile Include="Dog.cs" />
+    <Compile Include="DogFactory.cs" />
+    <Compile Include="DogRacePalaceStadium.cs" />
+    <Compile Include="DogState.cs" />
+    <Compile Include="Enums\DogBreedEnum.cs" />
+    <Compile Include="Enums\DogNameEnum.cs" />
+    <Compile Include="Enums\GuyNameEnum.cs" />
+    <Compile Include="Guy.cs" />
+    <Compile Include="Enums\ActionCommandEnum.cs" />
+    <Compile Include="Interfaces\IBettingBank.cs" />
+    <Compile Include="Interfaces\ICommand.cs" />
+    <Compile Include="Interfaces\ICommandDepositMoneyInGuyPocket.cs" />
+    <Compile Include="Interfaces\ICommandInvoker.cs" />
+    <Compile Include="Interfaces\ICommandNewDogToRacetrack.cs" />
+    <Compile Include="Interfaces\ICommandNewGuyToPalaceStadium.cs" />
+    <Compile Include="Interfaces\ICommandPlaceBet.cs" />
+    <Compile Include="Interfaces\IDog.cs" />
+    <Compile Include="Interfaces\IDogRacePalaceStadium.cs" />
+    <Compile Include="Interfaces\IDogState.cs" />
+    <Compile Include="Interfaces\IGuy.cs" />
+    <Compile Include="Interfaces\IRacetrack.cs" />
+    <Compile Include="Interfaces\IUIMediator.cs" />
+    <Compile Include="Models\CashDeposit.cs" />
+    <Compile Include="Models\Notification.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Racetrack.cs" />
+    <Compile Include="UIMediator.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DayAtTheRaces.Common\DayAtTheRaces.Common.csproj">
+      <Project>{0f47daa2-db2d-4133-ae66-b93785956445}</Project>
+      <Name>DayAtTheRaces.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

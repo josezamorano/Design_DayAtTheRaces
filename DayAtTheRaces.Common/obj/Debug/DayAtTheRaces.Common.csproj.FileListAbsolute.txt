@@ -1,0 +1,6 @@
+C:\_Projects\WPFProjects\DayAtTheRaces.Solution\DayAtTheRaces.Common\bin\Debug\DayAtTheRaces.Common.dll
+C:\_Projects\WPFProjects\DayAtTheRaces.Solution\DayAtTheRaces.Common\bin\Debug\DayAtTheRaces.Common.pdb
+C:\_Projects\WPFProjects\DayAtTheRaces.Solution\DayAtTheRaces.Common\obj\Debug\DayAtTheRaces.Common.csprojAssemblyReference.cache
+C:\_Projects\WPFProjects\DayAtTheRaces.Solution\DayAtTheRaces.Common\obj\Debug\DayAtTheRaces.Common.csproj.CoreCompileInputs.cache
+C:\_Projects\WPFProjects\DayAtTheRaces.Solution\DayAtTheRaces.Common\obj\Debug\DayAtTheRaces.Common.dll
+C:\_Projects\WPFProjects\DayAtTheRaces.Solution\DayAtTheRaces.Common\obj\Debug\DayAtTheRaces.Common.pdb

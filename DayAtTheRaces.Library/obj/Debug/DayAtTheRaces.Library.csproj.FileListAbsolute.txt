@@ -1,0 +1,12 @@
+C:\_Projects\WPFProjects\DayAtTheRaces.Solution\DayAtTheRaces.Library\bin\Debug\DayAtTheRaces.Library.dll
+C:\_Projects\WPFProjects\DayAtTheRaces.Solution\DayAtTheRaces.Library\bin\Debug\DayAtTheRaces.Library.pdb
+C:\_Projects\WPFProjects\DayAtTheRaces.Solution\DayAtTheRaces.Library\bin\Debug\Autofac.dll
+C:\_Projects\WPFProjects\DayAtTheRaces.Solution\DayAtTheRaces.Library\bin\Debug\DayAtTheRaces.Common.dll
+C:\_Projects\WPFProjects\DayAtTheRaces.Solution\DayAtTheRaces.Library\bin\Debug\DayAtTheRaces.Common.pdb
+C:\_Projects\WPFProjects\DayAtTheRaces.Solution\DayAtTheRaces.Library\bin\Debug\Autofac.pdb
+C:\_Projects\WPFProjects\DayAtTheRaces.Solution\DayAtTheRaces.Library\bin\Debug\Autofac.xml
+C:\_Projects\WPFProjects\DayAtTheRaces.Solution\DayAtTheRaces.Library\obj\Debug\DayAtTheRaces.Library.csprojAssemblyReference.cache
+C:\_Projects\WPFProjects\DayAtTheRaces.Solution\DayAtTheRaces.Library\obj\Debug\DayAtTheRaces.Library.csproj.CoreCompileInputs.cache
+C:\_Projects\WPFProjects\DayAtTheRaces.Solution\DayAtTheRaces.Library\obj\Debug\DayAtTheRaces.Library.csproj.CopyComplete
+C:\_Projects\WPFProjects\DayAtTheRaces.Solution\DayAtTheRaces.Library\obj\Debug\DayAtTheRaces.Library.dll
+C:\_Projects\WPFProjects\DayAtTheRaces.Solution\DayAtTheRaces.Library\obj\Debug\DayAtTheRaces.Library.pdb
